@@ -73,7 +73,7 @@ check_program() {
 
 run_sql_commands() {
     local sql_user
-
+    sql_user="root"
     while true; do
         echo -e "Probando creds mysql"
         echo
